@@ -1,4 +1,4 @@
-=== Simple Price Form(Basic) Instructions ===
+=== Simple Price Calculator(Basic) ===
 Contributors: premiumbizthemes
 Donate e-mail: 
 Tags: order estimate form, order form, price calculator, price calculator form, quote form, simple price calculator
