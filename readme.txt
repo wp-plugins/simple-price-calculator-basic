@@ -54,9 +54,14 @@ The basic version of this form can only add checkbox or radio buttons. Download 
 
 2. Add a new value attribute for checkbox or radio button and it will automatically be added to total when clicked.
 
-Ex: <input type="checkbox" value="14"> or <input type="radio" value="10">
+Ex: &lt;input type="checkbox" value="14"&gt; or &lt;input type="radio" value="10"&gt;
 
 Note: If you wish to group a bunch of radio buttons together and want them to switch, make sure each radio has the same name attribute. 
+
+= What is the difference between the basic and premium version? =
+
+With the premium version, your form details can be generated dynamically along with pricing. It also includes the ability to e-mail the form w/ details, a form generator, detailed documentation and increased functionality for more html tags, including the ability to merge two fields and multiply products.
+<a href="http://shop.premiumbizthemes.com/?download=simple-price-calculator-wordpress-version"> Click here for info about the Premium version </a>
 
 
 == Premium Version ==
