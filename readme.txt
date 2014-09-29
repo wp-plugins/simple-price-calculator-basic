@@ -10,12 +10,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Simple Price Calculator is a WordPress plugin that can transform any html based form into a price calculation form. You can
-use it to provide instant price quotes or estimates on products and services for your visitors. A total can be displayed dynamically within your page.
+Simple Price Calculator is a WordPress plugin that allows you to create a price calculation form. You can
+use it to provide instant price quotes or estimates on products and services for your visitors. A total can be displayed dynamically within your page. 
 
--  Simply create a form, setup a few attributes and the form is ready to go!
--  Ability to add checkboxes and radio buttons
--  Easy to customize
+=Key Features =
+
+-  Simply create a form, setup a few attributes and the form is ready to be displayed via a shortcode!
+-  Ability to add checkboxes and radio buttons that change price when clicked.
+-  Easy to customize text/pricing via html
 -  Premium version of plugin includes e-mai functionality, form tag generator, ability to add multiple fields together and more!
 
 
@@ -63,6 +65,11 @@ Note: If you wish to group a bunch of radio buttons together and want them to sw
 With the premium version, your form details can be generated dynamically along with pricing. It also includes the ability to e-mail the form w/ details, a form generator, detailed documentation and increased functionality for more html tags, including the ability to merge two fields and multiply products.
 <a href="http://shop.premiumbizthemes.com/?download=simple-price-calculator-wordpress-version"> Click here for info about the Premium version </a>
 
+== Screenshots ==
+
+1. Front-end of plugin. Price changes based on which buttons are selected.
+
+2. Back-end of plugin automatically displays shortcode once form is created.
 
 == Premium Version ==
 
