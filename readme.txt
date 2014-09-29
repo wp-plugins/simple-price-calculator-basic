@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Simple Price Calculator is a WordPress plugin that allows you to create a price calculation form. You can
 use it to provide instant price quotes or estimates on products and services for your visitors. A total can be displayed dynamically within your page. 
 
-<h2> Key Features  </h2>
+= Key Features =
 
 -  Simply create a form, setup a few attributes and the form is ready to be displayed via a shortcode!
 -  Ability to add checkboxes and radio buttons that change price when clicked.
