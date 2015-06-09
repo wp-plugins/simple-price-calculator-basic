@@ -5,7 +5,7 @@
 Plugin Name: Simple Price Calculator(Basic)
 Plugin URI: http://www.premiumbizthemes.com
 Description: Simple Price Calculator is a WordPress plugin that allows you to create your own price calculation form. You can use it to provide instant price quotes or estimates on products and services for your visitors
-Version: 1.0
+Version: 1.1
 Author: Premiumbizthemes
 Author URI: http://www.premiumbizthemes.com
 
@@ -45,7 +45,7 @@ class SimplePriceCalculator
 		wp_enqueue_script('spc-number');
 		wp_enqueue_script('spc-pricecalc');
 		wp_enqueue_style('spc-css');		
-		echo'
+		$spccontent = '
 		<script>
 		jQuery(document).ready( function ($) {
 			$("#spcquoteform").SimplePriceCalc();
@@ -53,11 +53,13 @@ class SimplePriceCalculator
 		</script>
 		';				
 		
-		echo '<form id="spcquoteform">';   		
+		$spccontent .= '<form id="spcquoteform">';   		
 			
-		echo $currpost->post_content;				
+		$spccontent .= $currpost->post_content;				
 	    
-		echo '</form> ';		
+		$spccontent .= '</form> ';		
+		
+		return $spccontent;
 		
 	}
 	
